@@ -45,7 +45,7 @@
 
       <footer id="footer">
         <ul class="copyright">
-          <li>©2021 | kushal</li>
+          <li >©<span id="copyright-year">&infin;</span> | kushal</li>
           <li></li>
         </ul>
       </footer>
@@ -63,6 +63,7 @@
           ? " is-ie"
           : "";
       }
+      document.getElementById("copyright-year").textContent = new Date().getFullYear();
     </script>
   </body>
 </html>
