@@ -1,52 +1,63 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Hello World</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<link rel="shortcut icon" type="image/png" href="assets/favicon-16x16.png"/>
-	</head>
-	<body class="is-preload">
+  <head>
+    <title>Hello World</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <noscript
+      ><link rel="stylesheet" href="/assets/css/noscript.css"
+    /></noscript>
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="/assets/favicon-16x16.png"
+    />
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Main -->
+      <section id="main">
+        <header>
+          <span class="avatar"><img src="/images/0.jpg" alt="" /></span>
+          <h1>Kushal Shit</h1>
+          <p>Senior Software Engineer</p>
+        </header>
+        <footer>
+          <ul class="icons">
+            <li>
+              <a href="https://github.com/kushalshit27" class="fa-github"
+                >Github</a
+              >
+            </li>
+          </ul>
+        </footer>
+      </section>
 
-		<!-- Wrapper -->
-			<div id="wrapper">
+      <footer id="footer">
+        <ul class="copyright">
+          <li>©2021 | kushal</li>
+          <li></li>
+        </ul>
+      </footer>
+    </div>
 
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/0.jpg" alt="" /></span>
-							<h1>Kushal Shit</h1>
-							<p>Senior Software Engineer</p>
-						</header>
-						<footer>
-								
-							<ul class="icons">
-								<!-- <li><a href="#" class="fa-twitter">Twitter</a></li>
-								<li><a href="#" class="fa-instagram">Instagram</a></li> -->
-								<li><a href="https://github.com/kushalshit27" class="fa-github">Github</a></li>
-								<li><a href="profile/" class="fa-id-badge">Work</a></li>								
-							</ul>
-						</footer>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; kushal </li><li>
-						</ul>
-					</footer>
-
-			</div>
-
-		<!-- Scripts -->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-	</body>
+    <script>
+      if ("addEventListener" in window) {
+        window.addEventListener("load", function () {
+          document.body.className = document.body.className.replace(
+            /\bis-preload\b/,
+            ""
+          );
+        });
+        document.body.className += navigator.userAgent.match(/(MSIE|rv:11\.0)/)
+          ? " is-ie"
+          : "";
+      }
+    </script>
+  </body>
 </html>
